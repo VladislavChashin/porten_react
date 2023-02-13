@@ -258,14 +258,16 @@ h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin: 50px 5px 0px 5px;
+  margin: 0px 5px 10px 5px;
+  padding-top: 40px;
   max-width: 260px;
   width: 100%;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .product:hover {
-  margin: 0 5px;
+  padding-top: 5px;
+  margin-bottom: 40px;
 }
 .product img {
   background-color: #191B1C;
@@ -485,6 +487,7 @@ h3 {
 .new_arrival .content {
   max-width: 1115px;
   width: 100%;
+  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
